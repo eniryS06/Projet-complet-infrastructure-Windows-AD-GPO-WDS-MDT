@@ -72,11 +72,11 @@
 
 ### Configuration des partages
 
-![Partages DFS](screenshots/06-dfs-replication.png)
+![Partages DFS](screenshots/05-dfs-partages.png)
 
 ### Réplication DFS
 
-![Réplication DFS](screenshots/02-DFS/06-dfs-replication.png)
+![Réplication DFS](screenshots/06-dfs-replication.png)
 
 **Configuration :**
 
@@ -107,21 +107,12 @@
 | GPO | Capture |
 |-----|---------|
 | Désactivation CMD | ![Disable CMD](screenshots/07-gpo-cmd-disable.png) |
-| Désactivation Registre | ![Disable Registry](screenshots/03-GPO/08-gpo-registry-disable.png) |
-| Désactivation Windows Update | ![Disable Updates](screenshots/03-GPO/09-gpo-windows-update-disable.png) |
+| Désactivation Registre | ![Disable Registry](screenshots/08-gpo-registry-disable.png) |
+| Désactivation Windows Update | ![Disable Updates](screenshots/38-gpo-windows-update-disable.png) |
 | Fond d'écran | ![Wallpaper](screenshots/10-gpo-wallpaper.png) |
 | Désactivation Pare-feu | ![Disable Firewall](screenshots/11-gpo-firewall-disable.png) |
 | Déploiement 7-Zip + Firefox | ![Software Deployment](screenshots/12-gpo-7zip-firefox.png) |
 
-### Vérification des GPO
-
-#### Résultat de `gpresult /h`
-
-![GPResult](screenshots/03-GPO/13-gpo-gpresult.png)
-
-#### Détails des GPO appliquées
-
-![GPO Details](screenshots/03-GPO/14-gpo-details.png)
 
 **Commandes utiles :**
 
@@ -162,15 +153,17 @@ MDT - Microsoft Deployment Toolkit
 
 ![Console MMC - Deployment Workbench](https://screenshots/28-mdt-console.png)
 
-![Intégration LiteTouch dans WDS (PXE)](https://screenshots/029-mdt-litetouch-pxe.png)
+![Intégration LiteTouch dans WDS (PXE)](https://screenshots/29-mdt-litetouch-pxe.png)
 
 ![Ajout des systèmes d'exploitation](https://screenshots/31-mdt-os-add.png)
 
-![Ajout des applications (Firefox + Drivers VMware)](https://screenshots/05-MDT/25-mdt-applications.png)
+![Ajout des applications (Firefox)](https://screenshots/32-mdt-applications.png)
 
-![Task Sequence (Windows 10 / Server 2022)](https://screenshots/05-MDT/26-mdt-task-sequence.png)
+![Ajout des applications (Drivers VMware)](https://screenshots/33-mdt-applications.png)
 
-![Déploiement de la task sequence](https://screenshots/05-MDT/27-mdt-deployment.png)
+![Task Sequence (Windows 10)](https://screenshots/35-mdt-task-sequence.png)
+
+![Déploiement de la task sequence](https://screenshots/36-mdt-deployment.png)
 
 # Problèmes rencontrés
 Erreur BCDBoot
