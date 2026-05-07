@@ -127,15 +127,15 @@ gpupdate /force
 gpresult /h C:\rapport-gpo.html
 ```
 WDS - Windows Deployment Services
-![Installation de WDS](https://screenshots/15-wds-installation.png)
+![Installation de WDS](screenshots/15-wds-installation.png)
 
-![Ajout des images de boot](https://screenshots/16-wds-boot-image.png)
+![Ajout des images de boot](screenshots/16-wds-boot-image.png)
 
-![Ajout des images d'installation](https://screenshots/18-wds-install-image.png)
+![Ajout des images d'installation](screenshots/18-wds-install-image.png)
 
-![Test PXE (démarrage réseau](https://screenshots/19-wds-pxe-boot.png)
+![Test PXE (démarrage réseau](screenshots/19-wds-pxe-boot.png)
 
-![Création de l'image de capture (Sysprep)](https://screenshots/23-wds-capture-image.png)
+![Création de l'image de capture (Sysprep)](screenshots/23-wds-capture-image.png)
 
 
 Configuration WDS :
@@ -147,23 +147,23 @@ Réponse PXE	Tous les clients
 Capture	Image sysprepée
 MDT - Microsoft Deployment Toolkit
 
-![Installation de MDT](https://screenshots/25-mdt-installation.png)
+![Installation de MDT](screenshots/25-mdt-installation.png)
 
-![DeploymentShare créé](https://screenshots/26-mdt-deployment-share.png)
+![DeploymentShare créé](screenshots/26-mdt-deployment-share.png)
 
-![Console MMC - Deployment Workbench](https://screenshots/28-mdt-console.png)
+![Console MMC - Deployment Workbench](screenshots/28-mdt-console.png)
 
-![Intégration LiteTouch dans WDS (PXE)](https://screenshots/29-mdt-litetouch-pxe.png)
+![Intégration LiteTouch dans WDS (PXE)](screenshots/29-mdt-litetouch-pxe.png)
 
-![Ajout des systèmes d'exploitation](https://screenshots/31-mdt-os-add.png)
+![Ajout des systèmes d'exploitation](screenshots/31-mdt-os-add.png)
 
-![Ajout des applications (Firefox)](https://screenshots/32-mdt-applications.png)
+![Ajout des applications (Firefox)](screenshots/32-mdt-applications.png)
 
-![Ajout des applications (Drivers VMware)](https://screenshots/33-mdt-applications.png)
+![Ajout des applications (Drivers VMware)](screenshots/33-mdt-applications.png)
 
-![Task Sequence (Windows 10)](https://screenshots/35-mdt-task-sequence.png)
+![Task Sequence (Windows 10)](screenshots/35-mdt-task-sequence.png)
 
-![Déploiement de la task sequence](https://screenshots/36-mdt-deployment.png)
+![Déploiement de la task sequence](screenshots/36-mdt-deployment.png)
 
 # Problèmes rencontrés
 Erreur BCDBoot
