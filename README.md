@@ -42,15 +42,15 @@
 
 ### Installation du premier contrôleur de domaine (DC1)
 
-![DC1 Installation](screenshots/01-AD-DNS/01-dc1-installation.png)
+![DC1 Installation](screenshots/01-dc1-installation.png)
 
 ### Installation du deuxième contrôleur (DC2 - Mode Core)
 
-![DC2 Core Installation](screenshots/01-AD-DNS/02-dc2-core-installation.png)
+![DC2 Core Installation](screenshots/02-dc2-core-installation.png)
 
 ### Configuration DNS
 
-![Configuration DNS](screenshots/01-AD-DNS/03-dns-configuration.png)
+![Configuration DNS](screenshots/03-dns.png)
 
 **Configuration :**
 
@@ -68,11 +68,11 @@
 
 ### Installation de DFS
 
-![DFS Installation](screenshots/02-DFS/04-dfs-installation.png)
+![DFS Installation](screenshots/04-dfs-installation.png)
 
 ### Configuration des partages
 
-![Partages DFS](screenshots/02-DFS/05-dfs-partages.png)
+![Partages DFS](screenshots/06-dfs-replication.png)
 
 ### Réplication DFS
 
@@ -106,12 +106,12 @@
 
 | GPO | Capture |
 |-----|---------|
-| Désactivation CMD | ![Disable CMD](screenshots/03-GPO/07-gpo-cmd-disable.png) |
+| Désactivation CMD | ![Disable CMD](screenshots/07-gpo-cmd-disable.png) |
 | Désactivation Registre | ![Disable Registry](screenshots/03-GPO/08-gpo-registry-disable.png) |
 | Désactivation Windows Update | ![Disable Updates](screenshots/03-GPO/09-gpo-windows-update-disable.png) |
-| Fond d'écran | ![Wallpaper](screenshots/03-GPO/10-gpo-wallpaper.png) |
-| Désactivation Pare-feu | ![Disable Firewall](screenshots/03-GPO/11-gpo-firewall-disable.png) |
-| Déploiement 7-Zip + Firefox | ![Software Deployment](screenshots/03-GPO/12-gpo-7zip-firefox.png) |
+| Fond d'écran | ![Wallpaper](screenshots/10-gpo-wallpaper.png) |
+| Désactivation Pare-feu | ![Disable Firewall](screenshots/11-gpo-firewall-disable.png) |
+| Déploiement 7-Zip + Firefox | ![Software Deployment](screenshots/12-gpo-7zip-firefox.png) |
 
 ### Vérification des GPO
 
@@ -136,15 +136,15 @@ gpupdate /force
 gpresult /h C:\rapport-gpo.html
 ```
 WDS - Windows Deployment Services
-![Installation de WDS](https://screenshots/04-WDS/15-wds-installation.png)
+![Installation de WDS](https://screenshots/15-wds-installation.png)
 
-![Ajout des images de boot](https://screenshots/04-WDS/16-wds-boot-image.png)
+![Ajout des images de boot](https://screenshots/16-wds-boot-image.png)
 
-![Ajout des images d'installation](https://screenshots/04-WDS/17-wds-install-image.png)
+![Ajout des images d'installation](https://screenshots/18-wds-install-image.png)
 
-![Test PXE (démarrage réseau](https://screenshots/04-WDS/18-wds-pxe-boot.png)
+![Test PXE (démarrage réseau](https://screenshots/19-wds-pxe-boot.png)
 
-![Création de l'image de capture (Sysprep)](https://screenshots/04-WDS/19-wds-capture-image.png)
+![Création de l'image de capture (Sysprep)](https://screenshots/23-wds-capture-image.png)
 
 
 Configuration WDS :
@@ -156,15 +156,15 @@ Réponse PXE	Tous les clients
 Capture	Image sysprepée
 MDT - Microsoft Deployment Toolkit
 
-![Installation de MDT](https://screenshots/05-MDT/20-mdt-installation.png)
+![Installation de MDT](https://screenshots/25-mdt-installation.png)
 
-![DeploymentShare créé](https://screenshots/05-MDT/21-mdt-deployment-share.png)
+![DeploymentShare créé](https://screenshots/26-mdt-deployment-share.png)
 
-![Console MMC - Deployment Workbench](https://screenshots/05-MDT/22-mdt-console.png)
+![Console MMC - Deployment Workbench](https://screenshots/28-mdt-console.png)
 
-![Intégration LiteTouch dans WDS (PXE)](https://screenshots/05-MDT/23-mdt-litetouch-pxe.png)
+![Intégration LiteTouch dans WDS (PXE)](https://screenshots/029-mdt-litetouch-pxe.png)
 
-![Ajout des systèmes d'exploitation](https://screenshots/05-MDT/24-mdt-os-add.png)
+![Ajout des systèmes d'exploitation](https://screenshots/31-mdt-os-add.png)
 
 ![Ajout des applications (Firefox + Drivers VMware)](https://screenshots/05-MDT/25-mdt-applications.png)
 
